@@ -235,7 +235,7 @@ a:hover {
   background-color: #f7f7f7;
   font-size: 30px;
   border-radius: 50%;
-  transition: all 0.5s;
+  transition: all 1s;
 }
 
 .services .service:hover .ser-icon {
@@ -261,6 +261,17 @@ a:hover {
 .portfolio .portIcon {
   color: white;
   background-color: black;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 50%;
+  border: #000 solid 1px;
+  transition: all 0.5s;
+}
+
+.portfolio .portIcon:hover {
+  color: black;
+  background-color: white;
   width: 30px;
   height: 30px;
   font-size: 15px;
@@ -302,9 +313,10 @@ a:hover {
 
 .testimonials .carousel-indicators a {
   background-color: #1c1c1c !important;
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
+  margin: 0 7px;
 }
 
 .testimonials .carousel-item p {
@@ -318,7 +330,7 @@ a:hover {
   font-size: 15px;
 }
 
-/********************************** Statistics ******************************/
+/********************************** Blog ******************************/
 
 .blog {
   background-color: #f7f7f7;
@@ -334,6 +346,7 @@ a:hover {
   width: 12px;
   height: 12px;
   border-radius: 50%;
+  margin: 0 7px;
 }
 
 .blog .card-title {
@@ -353,7 +366,7 @@ a:hover {
 }
 
 .blog .card-img-top {
-  transition: all 0.5s;
+  transition: all 0.75s;
 }
 
 .blog .card-img-top:hover {
